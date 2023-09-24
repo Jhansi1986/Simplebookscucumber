@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="5.173" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Validate the Simplebooks application End-End points" name="verify authentication to fetch the token" time="4.852">
+<system-out><![CDATA[
+Given Authentication baseurl along with body................................passed
+When Execute the authenticate "/api-clients/" which provides accessToken....passed
+Then Verifying the accessToken and staus code is 201 in the response........passed
+And verify the accessToken in the response..................................passed
+]]></system-out>
+</testcase>
+</testsuite>
